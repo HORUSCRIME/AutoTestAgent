@@ -13,10 +13,14 @@ This project uses a team of AI agents to fully automate the software testing pro
 
 * Intelligent Bug Reporting: Analyzes failures and creates detailed bug reports in Jira.
 
-Getting Started
+**Getting Started**
+
+
 This project is designed to be run in a Google Colab notebook.
 
-1. Installation
+**1. Installation**
+
+
 Run the first code block in the notebook to install all the necessary libraries.
 
 # Run this block first to install all the required libraries.
@@ -24,13 +28,13 @@ Run the first code block in the notebook to install all the necessary libraries.
 !pip install -q python-jira pytest playwright pytest-html requests faker pyyaml pytest-xvfb
 # ... and other dependencies
 
-2. Usage
-Run the main script cell.
+**2. Usage**
+* Run the main script cell.
 
-Choose "Run Full Test Automation" from the menu.
+* Choose "Run Full Test Automation" from the menu.
 
-Follow the prompts to enter your API keys and credentials.
+* Follow the prompts to enter your API keys and credentials.
 
-Provide the Jira Ticket ID and Project Key when asked.
+* Provide the Jira Ticket ID and Project Key when asked.
 
-The AI crew will then take over and complete the entire testing process.
+* The AI crew will then take over and complete the entire testing process.

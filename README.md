@@ -1,8 +1,8 @@
-Ultimate Test Automation Coordinator 3.0
+**Ultimate Test Automation Coordinator 3.0**
+
+
 Introduction
 The Ultimate Test Automation Coordinator is an enterprise-grade, AI-powered framework designed to completely automate the software testing lifecycle. By leveraging a crew of specialized AI agents, this system transforms requirements from a Jira ticket into a full suite of executable tests, runs them in an optimized environment, analyzes the results with predictive intelligence, and handles all reporting and communication.
-
-
 
 This project is built using CrewAI and Google's Gemini Pro, and it is optimized for execution in Google Colab environments.
 
@@ -55,6 +55,7 @@ Open the script in a Colab notebook. The first code block handles all necessary 
 !pip install -q crewai==0.28.8 crewai-tools==0.1.6 google-generativeai 
 !pip install -q python-jira pytest playwright pytest-html requests faker pyyaml pytest-xvfb
 # ... and other dependencies
+
 
 3. Credential Setup
 The script provides a secure and user-friendly way to manage your credentials. When you run the main execution block, you will be presented with several options:

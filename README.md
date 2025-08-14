@@ -23,10 +23,13 @@ This project is designed to be run in a Google Colab notebook.
 
 Run the first code block in the notebook to install all the necessary libraries.
 
+```Python
 # Run this block first to install all the required libraries.
 !pip install -q crewai==0.28.8 crewai-tools==0.1.6 google-generativeai 
 !pip install -q python-jira pytest playwright pytest-html requests faker pyyaml pytest-xvfb
 # ... and other dependencies
+```
+
 
 **2. Usage**
 * Run the main script cell.

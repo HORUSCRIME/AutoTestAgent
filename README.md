@@ -2,6 +2,8 @@ Ultimate Test Automation Coordinator 3.0
 Introduction
 The Ultimate Test Automation Coordinator is an enterprise-grade, AI-powered framework designed to completely automate the software testing lifecycle. By leveraging a crew of specialized AI agents, this system transforms requirements from a Jira ticket into a full suite of executable tests, runs them in an optimized environment, analyzes the results with predictive intelligence, and handles all reporting and communication.
 
+
+
 This project is built using CrewAI and Google's Gemini Pro, and it is optimized for execution in Google Colab environments.
 
 Key Features

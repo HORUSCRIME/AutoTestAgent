@@ -3,22 +3,23 @@
 
 This project uses a team of AI agents to fully automate the software testing process. It reads a Jira ticket, writes the test code, runs the tests, and reports the results back to Jira.
 
-**Core Features**
+## Core Features
 
-* Automated Requirement Analysis: Reads and understands Jira tickets.
+* **Automated Requirement Analysis:** Reads and understands Jira tickets.
 
-* AI-Powered Test Generation: Creates test scripts automatically.
+* **AI-Powered Test Generation:** Creates test scripts automatically.
 
-* Optimized Test Execution: Runs tests efficiently and monitors performance.
+* **Optimized Test Execution:** Runs tests efficiently and monitors performance.
 
-* Intelligent Bug Reporting: Analyzes failures and creates detailed bug reports in Jira.
+* **Intelligent Bug Reporting:** Analyzes failures and creates detailed bug reports in Jira.
 
-**Getting Started**
+
+### Getting Started
 
 
 This project is designed to be run in a Google Colab notebook.
 
-**1. Installation**
+#### 1. Installation
 
 
 Run the first code block in the notebook to install all the necessary libraries.
@@ -31,7 +32,7 @@ Run the first code block in the notebook to install all the necessary libraries.
 ```
 
 
-**2. Usage**
+#### 2. Usage
 * Run the main script cell.
 
 * Choose "Run Full Test Automation" from the menu.
